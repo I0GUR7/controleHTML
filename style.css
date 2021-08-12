@@ -171,8 +171,8 @@ html {
     margin: 50px;
     position: absolute;
     top: 250px;
-    right: 65%;
-    }
+    left: 218px;
+}
 
 #retangulo2 {
     width: 80px;
@@ -231,7 +231,7 @@ html {
         margin: 50px;
         position: absolute;
         top: 250px;
-        right: 65%;
+        left: 218px;
         }
         
         #retangulinho2 {
