@@ -1,0 +1,578 @@
+
+
+html {
+    background-color: teal;
+}
+
+#circulo {
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 250px;
+    right: -110px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    }
+
+#circulo2 {
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 455px;
+    top: 250px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    }
+
+
+    #circulo3 {
+        width: 140px;
+        height: 140px;
+        background-color: gray;
+        margin: 50px;
+        border-radius: 50%;
+        position: absolute;
+        top: 280px;
+        border-color: black;
+        border-width: 5px;
+        border-style: solid;
+        left: 150px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    }
+
+    #circulo4 {
+        width: 140px;
+        height: 140px;
+        background-color: gray;
+        margin: 50px;
+        border-radius: 50%;
+        position: absolute;
+        border-color: black;
+        border-width: 5px;
+        border-style: solid;
+        top: 280px;
+        left: 490px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    }
+
+    #botao {
+        width: 40px;
+        height: 80px;
+        background-color: rgb(201, 201, 201);
+        margin: 50px;
+        border-radius: 80rem;
+        position: absolute;
+        left: 520px;
+        top: 290px;
+        border-color: black;
+        border-width: 5px;
+        border-style: solid;
+        transform: rotate(45deg);
+    }
+
+    #botao2 {
+        width: 40px;
+        height: 80px;
+        background-color: rgb(201, 201, 201);
+        margin: 50px;
+        border-radius: 80rem;
+        position: absolute;
+        left: 560px;
+        border-color: black;
+        border-width: 5px;
+        border-style: solid;
+        top: 325px;
+        transform: rotate(45deg);
+    }
+
+    #circulinho {
+        width: 30px;
+        height: 30px;
+        background-color: green;
+        margin: 50px;
+        border-radius: 50%;
+        border-width: 3px;
+        border-style: solid;
+        border-color: rgb(0, 73, 0);
+        position: absolute;
+        left: 514px;
+        transition: all .2s;
+        top: 330px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        }
+
+        
+
+        #circulinho2 {
+        width: 30px;
+        height: 30px;
+        background-color: blue;
+        margin: 50px;
+        border-radius: 50%;
+        border-width: 3px;
+        border-style: solid;
+        border-color: rgb(0, 0, 139);
+        position: absolute;
+        transition: all .2s;
+        left: 540px;
+        top: 303px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        }
+
+    #circulinho3 {
+        width: 30px;
+        height: 30px;
+        background-color: yellow;
+        margin: 50px;
+        border-radius: 50%;
+        border-width: 3px;
+        border-style: solid;
+        border-color: rgb(160, 160, 0);
+        position: absolute;
+        left: 553px;
+        transition: all .2s;
+        top: 365px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        }
+
+    #circulinho4 {
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        margin: 50px;
+        border-radius: 50%;
+        border-width: 3px;
+        transition: all .2s;
+        border-style: solid;
+        border-color: rgb(160, 0, 0);
+        position: absolute;
+        left: 580px;
+        top: 338px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+        
+
+
+#retangulo {
+    width: 340px;
+    height: 160px;
+    background-color: whitesmoke;
+    margin: 50px;
+    position: absolute;
+    top: 250px;
+    right: 65%;
+    }
+
+#retangulo2 {
+    width: 80px;
+    height: 25px;
+    background-color: black;
+    margin: 50px;
+    border-radius: 12%;
+    position: absolute;
+    top: 338px;
+    left: 185px;
+    transform: rotate(90deg);
+    }
+
+#retangulo3 {
+    width: 80px;
+    height: 25px;
+    background-color: black;
+    margin: 50px;
+    border-radius: 12%;
+    position: absolute;
+    top: 338px;
+    left: 185px;
+    transform: rotate(0deg);
+    }
+
+    #botaost {
+        width: 15px;
+        height: 35px;
+        background-color: black;
+        margin: 50px;
+        border-radius: 80rem;
+        position: absolute;
+        left: 340px;
+        top: 350px;
+        transform: rotate(45deg);
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    }
+
+    #botaost2 {
+        width: 15px;
+        height: 35px;
+        background-color: black;
+        margin: 50px;
+        border-radius: 80rem;
+        position: absolute;
+        left: 430px;
+        top: 350px;
+        transform: rotate(45deg);
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    }
+
+    #retangulinho {
+        width: 340px;
+        height: 5px;
+        background-color: black;
+        margin: 50px;
+        position: absolute;
+        top: 250px;
+        right: 65%;
+        }
+        
+        #retangulinho2 {
+            width: 169px;
+            height: 5px;
+            background-color: black;
+            margin: 50px;
+            position: absolute;
+            top: 410px;
+            left: 308px;
+            }
+
+            #retangulinho3 {
+                width: 174px;
+                height: 5px;
+                background-color: black;
+                margin: 50px;
+                position: absolute;
+                top: 300px;
+                left: 308px;
+                }
+
+                #quadradinho {
+                    width: 5px;
+                    height: 5px;
+                    background-color: rgb(0, 0, 0);
+                    margin: 50px;
+                    position: absolute;
+                    top: 285px;
+                    left: 308px;
+                    }
+
+                    #quadradinho2 {
+                        width: 5px;
+                        height: 5px;
+                        background-color: rgb(0, 0, 0);
+                        margin: 50px;
+                        position: absolute;
+                        top: 285px;
+                        left: 320px;
+                        }
+
+                        #quadradinho3 {
+                            width: 5px;
+                            height: 5px;
+                            background-color: rgb(0, 0, 0);
+                            margin: 50px;
+                            position: absolute;
+                            top: 285px;
+                            left: 332px;
+                            }
+            
+                            #quadradinho4 {
+                                width: 5px;
+                                height: 5px;
+                                background-color: rgb(0, 0, 0);
+                                margin: 50px;
+                                position: absolute;
+                                top: 285px;
+                                left: 344px;
+                                }
+
+                                #quadradinho5 {
+                                    width: 5px;
+                                    height: 5px;
+                                    background-color: rgb(0, 0, 0);
+                                    margin: 50px;
+                                    position: absolute;
+                                    top: 285px;
+                                    left: 356px;
+                                    }
+
+                                    #quadradinho6 {
+                                        width: 5px;
+                                        height: 5px;
+                                        background-color: rgb(0, 0, 0);
+                                        margin: 50px;
+                                        position: absolute;
+                                        top: 285px;
+                                        left: 368px;
+                                        }
+
+                                        #quadradinho7 {
+                                            width: 5px;
+                                            height: 5px;
+                                            background-color: rgb(0, 0, 0);
+                                            margin: 50px;
+                                            position: absolute;
+                                            top: 285px;
+                                            left: 380px;
+                                            }
+
+                                            #quadradinho8 {
+                                                width: 5px;
+                                                height: 5px;
+                                                background-color: rgb(0, 0, 0);
+                                                margin: 50px;
+                                                position: absolute;
+                                                top: 285px;
+                                                left: 392px;
+                                                }
+
+                                                #quadradinho9 {
+                                                    width: 5px;
+                                                    height: 5px;
+                                                    background-color: rgb(0, 0, 0);
+                                                    margin: 50px;
+                                                    position: absolute;
+                                                    top: 285px;
+                                                    left: 404px;
+                                                    }
+
+                                                    #quadradinho10 {
+                                                        width: 5px;
+                                                        height: 5px;
+                                                        background-color: rgb(0, 0, 0);
+                                                        margin: 50px;
+                                                        position: absolute;
+                                                        top: 285px;
+                                                        left: 416px;
+                                                        }
+
+                                                        #quadradinho11 {
+                                                            width: 5px;
+                                                            height: 5px;
+                                                            background-color: rgb(0, 0, 0);
+                                                            margin: 50px;
+                                                            position: absolute;
+                                                            top: 285px;
+                                                            left: 428px;
+                                                            }
+
+                                                            #quadradinho12 {
+                                                                width: 5px;
+                                                                height: 5px;
+                                                                background-color: rgb(0, 0, 0);
+                                                                margin: 50px;
+                                                                position: absolute;
+                                                                top: 285px;
+                                                                left: 440px;
+                                                                }
+
+                                                                #quadradinho13 {
+                                                                    width: 5px;
+                                                                    height: 5px;
+                                                                    background-color: rgb(0, 0, 0);
+                                                                    margin: 50px;
+                                                                    position: absolute;
+                                                                    top: 285px;
+                                                                    left: 452px;
+                                                                    }
+
+                                                                    #quadradinho14 {
+                                                                        width: 5px;
+                                                                        height: 5px;
+                                                                        background-color: rgb(0, 0, 0);
+                                                                        margin: 50px;
+                                                                        position: absolute;
+                                                                        top: 285px;
+                                                                        left: 464px;
+                                                                        }
+
+                                                                        #quadradinho15 {
+                                                                            width: 5px;
+                                                                            height: 5px;
+                                                                            background-color: rgb(0, 0, 0);
+                                                                            margin: 50px;
+                                                                            position: absolute;
+                                                                            top: 285px;
+                                                                            left: 476px;
+                                                                            }
+
+    #cabo {
+        width: 1000px;
+        height: 20px;
+        background-color: black;
+        margin: 50px;
+        position: absolute;
+        top: -260px;
+        left: -105px;
+        transform: rotate(90deg);
+        }
+
+        #caboSombra {
+            width: 1000px;
+            height: 8px;
+            background-color: rgb(78, 78, 78);
+            margin: 50px;
+            position: absolute;
+            top: -250px;
+            left: -111px;
+            transform: rotate(90deg);
+            }
+
+        .btn:link,
+        .btn:visited {
+            width: 200px;
+            height: 200px;
+            background-color: whitesmoke;
+            margin: 50px;
+            border-radius: 65px 80px 95px 105px;
+            position: absolute;
+            border-color: black;
+            border-style: solid;
+            border-width: 5px;
+            left: 450px;
+            top: 237px;
+            transition: all .2s;
+            display: inline-block;
+            outline: none;
+            }
+
+            .btn:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            }
+
+            .btn:active {
+                transform: translateY(-1px);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            }
+
+            .btn-white {
+                background-color: #fff;
+                color: #777;
+            }
+
+            .btn::after {
+                content: "";
+                display: inline-block;
+                height: 100%;
+                width: 100%;
+                border-radius: 100px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: all .4s;
+            }
+
+            .btn-white::after {
+                background-color: #fff;
+            }
+                
+                .btn-animated {
+                    animation: moveInBottom 5s ease-out;
+                    animation-fill-mode: backwards;
+                }
+                
+                @keyframes moveInBottom {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(30px);
+                    }
+                
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0px);
+                    }
+                }
+
+                .btn2:link,
+                .btn2:visited{
+                width: 200px;
+                height: 200px;
+                background-color: whitesmoke;
+                margin: 50px;
+                border-radius: 80px 65px 100px 95px;
+                position: absolute;
+                position: absolute;
+                border-color: black;
+                border-style: solid;
+                transition: all .2s;
+                border-width: 5px;
+                left: 125px;
+                top: 237px;
+                }
+
+                .btn2:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                }
+    
+                .btn2:active {
+                    transform: translateY(-1px);
+                    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                }
+    
+                .btn-white2 {
+                    background-color: #fff;
+                    color: #777;
+                }
+    
+                .btn2::after {
+                    content: "";
+                    display: inline-block;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 100px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: -1;
+                    transition: all .4s;
+                }
+    
+                .btn-white2::after {
+                    background-color: #fff;
+                }
+    
+                
+    
+                    
+                    .btn-animated2 {
+                        animation: moveInBottom 5s ease-out;
+                        animation-fill-mode: backwards;
+                    }
+                    
+                    @keyframes moveInBottom {
+                        0% {
+                            opacity: 0;
+                            transform: translateY(30px);
+                        }
+                    
+                        100% {
+                            opacity: 1;
+                            transform: translateY(0px);
+                        }
+                    }
+
+    #sombra {
+        width: 50px;
+        height: 500px;
+        background-color: gray;
+        margin: 50px;
+        border-radius: 1000%;
+        position: absolute;
+        top: 50%;
+        opacity: 0.7;
+        left: 375px;
+        transform: rotate(90deg);
+    }
+
+                
